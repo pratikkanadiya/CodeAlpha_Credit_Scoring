@@ -1,20 +1,21 @@
 # Credit Worthiness Classification
 
-Overview
+# Overview
 
 This project focuses on predicting a customer's credit worthiness using Machine Learning techniques. The goal is to classify applicants based on their financial and personal information to assist in credit risk assessment and lending decisions.
 
-The project includes:
+# The project includes:
+<ul>
+    <li> Data Cleaning and Preprocessing </li>
+    <li> Exploratory Data Analysis (EDA) </li>
+    <li> Feature Engineering </li>
+    <li> Data Transformation and Encoding </li>
+    <li> Model Training </li>
+    <li> Hyperparameter Tuning using GridSearchCV </li>
+    <li> Model Evaluation and Comparison </li>
+</ul>
 
-Data Cleaning and Preprocessing
-Exploratory Data Analysis (EDA)
-Feature Engineering
-Data Transformation and Encoding
-Model Training
-Hyperparameter Tuning using GridSearchCV
-Model Evaluation and Comparison
-
-Dataset Features
+# Dataset Features :
 
 The dataset contains applicant information such as:
 
