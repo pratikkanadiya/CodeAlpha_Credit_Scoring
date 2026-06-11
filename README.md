@@ -110,24 +110,31 @@ The project includes:
 
 # Project Structure
 ├── creditworthiness.ipynb
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── dataset/
+
 │   ├──CreditWorthiness.xlsx
+
 ├── images/
+
 │   ├── distribution.png
+
 │   ├── pie_chart.png
+
 │   ├── heatmap.png
+
 │   ├── ROC_AUC_Testdata
+
 │   ├── ROC_AUC_Traindata
 
 
 
+
 # Installation :
-
-git clone https://github.com/your-username/credit-worthiness-classification.git
-
-cd credit-worthiness-classification
 
 pip install -r requirements.txt
 
