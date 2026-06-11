@@ -1,1 +1,1 @@
-# -CodeAlpha_Credit_Scoring
+# CodeAlpha_Credit_Scoring
