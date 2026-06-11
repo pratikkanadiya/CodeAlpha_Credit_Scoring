@@ -109,27 +109,17 @@ The project includes:
 </ul>
 
 # Project Structure
-├── creditworthiness.ipynb
-
-├── requirements.txt
-
-├── README.md
-
-├── dataset/
-
-│   ├──CreditWorthiness.xlsx
-
-├── images/
-
-│   ├── distribution.png
-
-│   ├── pie_chart.png
-
-│   ├── heatmap.png
-
-│   ├── ROC_AUC_Testdata
-
-│   ├── ROC_AUC_Traindata
+├── creditworthiness.ipynb<br>
+├── requirements.txt<br>
+├── README.md<br>
+├── dataset/<br>
+│   ├──CreditWorthiness.xlsx<br>
+├── images/<br>
+│   ├── distribution.png<br>
+│   ├── pie_chart.png<br>
+│   ├── heatmap.png<br>
+│   ├── ROC_AUC_Testdata<br>
+│   ├── ROC_AUC_Traindata<br>
 
 
 
