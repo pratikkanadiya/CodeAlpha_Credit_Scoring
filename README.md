@@ -4,7 +4,7 @@
 
 This project focuses on predicting a customer's credit worthiness using Machine Learning techniques. The goal is to classify applicants based on their financial and personal information to assist in credit risk assessment and lending decisions.
 
-# The project includes:
+# The project includes :
 <ul>
     <li> Data Cleaning and Preprocessing </li>
     <li> Exploratory Data Analysis (EDA) </li>
@@ -18,106 +18,112 @@ This project focuses on predicting a customer's credit worthiness using Machine 
 # Dataset Features :
 
 The dataset contains applicant information such as:
+<ul>
+    <li>Checking Account Balance</li>
+    <li>Credit Duration</li>
+    <li>Credit History</li>
+    <li>Loan Purpose</li>
+    <li>Loan Amount</li>
+    <li>Savings Account Balance</li>
+    <li>Employment Duration</li>
+    <li>Installment Rate</li>
+    <li>Property Information</li>
+    <li>Age</li>
+    <li>Housing Type</li>
+    <li>Number of Existing Credits</li>
+    <li>Credit Score (Target Variable)</li>
+</ul>
 
-Checking Account Balance
-Credit Duration
-Credit History
-Loan Purpose
-Loan Amount
-Savings Account Balance
-Employment Duration
-Installment Rate
-Property Information
-Age
-Housing Type
-Number of Existing Credits
-Credit Score (Target Variable)
-
-Data Preprocessing
+# Data Preprocessing :
 
 The following preprocessing techniques were applied:
+<ul>
+    <li>Numerical Features</li>
+        <ul>
+            <li>Log Transformation : Camt (Loan Amount), Cdur (Credit Duration) </li>
+            <li>Standard Scaling : Age, Installment Rate, Number of Credits</li>
+        </ul>
+    <li>Categorical Features</li>
+        <ul>
+            <li>One-Hot Encoding</li>
+            <li>Target Variable</li>
+            <li>Label Encoding</li>
+        </ul>
+</ul>
 
-Numerical Features
-Log Transformation:
-Camt (Loan Amount)
-Cdur (Credit Duration)
-Standard Scaling:
-Age
-Installment Rate
-Number of Credits
-
-Categorical Features
-One-Hot Encoding
-Target Variable
-Label Encoding
-
-Exploratory Data Analysis
+# Exploratory Data Analysis :
 
 The project includes:
+<ul>
+    <li>Distribution Analysis</li>
+    <li>Box Plots (Outlier Detection)</li>
+    <li>Correlation Heatmaps</li>
+    <li>Category-wise Pie Charts</li>
+    <li>Missing Value Inspection</li>
+    <li>Duplicate Record Detection</li>
+</ul>
 
-Distribution Analysis
-Box Plots
-Correlation Heatmaps
-Category-wise Pie Charts
-Missing Value Inspection
-Duplicate Record Detection
+# Machine Learning Models :
+<ol>
+    <li>Logistic Regression</li>
+        <ul>
+            <li>Baseline Classification Model</li>
+            <li>Hyperparameter Optimization using GridSearchCV</li>
+        </ul>
+    <li>Decision Tree Classifier</li>
+        <ul>
+            <li>Tree-based Classification</li>
+            <li>Hyperparameter Optimization using GridSearchCV</li>
+        </ul>
+    <li>Random Forest Classifier</li>
+        <ul>
+            <li>Ensemble Learning Approach</li>
+            <li>Hyperparameter Optimization using GridSearchCV</li>
+            <li>Hyperparameter Tuning</li>
+        </ul>
+</ol>
 
-Machine Learning Models
-1. Logistic Regression
-Baseline Classification Model
-Hyperparameter Optimization using GridSearchCV
-2. Decision Tree Classifier
-Tree-based Classification
-Hyperparameter Optimization using GridSearchCV
-3. Random Forest Classifier
-Ensemble Learning Approach
-Hyperparameter Optimization using GridSearchCV
-Hyperparameter Tuning
+# GridSearchCV was used with 5-Fold Cross Validation to find the optimal parameters for each model.
 
-GridSearchCV was used with 5-Fold Cross Validation to find the optimal parameters for each model.
 
-Parameters tuned include:
+# Models were evaluated using :
+<ul>
+    <li>Accuracy Score</li>
+    <li>Classification Report</li>
+    <li>Precision</li>
+    <li>Recall</li>
+    <li>F1 Score</li>
+    <li>Confusion Matrix</li>
+    <li>ROC-AUC Analysis</li>
+</ul>
 
-Regularization Strength (C)
-Penalty Types
-Maximum Tree Depth
-Split Criteria
-Number of Estimators
-Minimum Samples Split
-Minimum Samples Leaf
-Feature Selection Methods
-Evaluation Metrics
+# Technologies Used :
+<ul>
+    <li>Python</li>
+    <li>Numpy</li>
+    <li>Pandas</li>
+    <li>Matplotlib</li>
+    <li>Seaborn</li>
+    <li>Scikit-Learn</li>
+    <li>Jupyter Notebook</li>
+</ul>
 
-Models were evaluated using:
-
-Accuracy Score
-Classification Report
-Precision
-Recall
-F1 Score
-Confusion Matrix
-ROC-AUC Analysis
-
-Technologies Used
-Python
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-Learn
-Jupyter Notebook
-
-Project Structure
+# Project Structure
 ├── creditworthiness.ipynb
+├── requirements.txt
 ├── README.md
 ├── dataset/
-│   └── CreditWorthiness.xlsx
+│   ├──CreditWorthiness.xlsx
 ├── images/
-│   ├── numerical_features_distribution.png
-│   └── cat_plot.png
+│   ├── distribution.png
+│   ├── pie_chart.png
+│   ├── heatmap.png
+│   ├── ROC_AUC_Testdata
+│   ├── ROC_AUC_Traindata
 
 
-Installation
+
+# Installation :
 
 git clone https://github.com/your-username/credit-worthiness-classification.git
 
@@ -125,10 +131,13 @@ cd credit-worthiness-classification
 
 pip install -r requirements.txt
 
-Future Improvements
-XGBoost Implementation
-LightGBM Implementation
-Feature Selection Techniques
-Model Explainability using SHAP
-Deployment using Flask or Streamlit
+
+# Future Improvements :
+<ul>
+    <li>XGBoost Implementation</li>
+    <li>LightGBM Implementation</li>
+    <li>Feature Selection Techniques</li>
+    <li>Model Explainability using SHAP</li>
+    <li>Deployment using Flask or Streamlit</li>
+</ul>
 
