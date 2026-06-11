@@ -1,6 +1,6 @@
 # Credit Worthiness Classification
 
-# Overview
+# Overview :
 
 This project focuses on predicting a customer's credit worthiness using Machine Learning techniques. The goal is to classify applicants based on their financial and personal information to assist in credit risk assessment and lending decisions.
 
